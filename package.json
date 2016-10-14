@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/nngrey/comment_box/issues"
   },
-  "homepage": "https://github.com/nngrey/comment_box#readme"
+  "homepage": "https://github.com/nngrey/comment_box#readme",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0"
+  }
 }
