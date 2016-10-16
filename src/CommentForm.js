@@ -1,4 +1,5 @@
-// tutorial17.js
+import React from 'react';
+
 var CommentForm = React.createClass({
   getInitialState: function() {
     return {author: '', text: ''};
@@ -39,3 +40,5 @@ var CommentForm = React.createClass({
     );
   }
 });
+
+export default CommentForm;
